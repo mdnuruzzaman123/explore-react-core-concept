@@ -1,16 +1,16 @@
 import './App.css'
-import Counter from './assets/documents/Counter'
-import Team from './assets/documents/Team'
-import EventHandler from './assets/documents/EventHandler'
-import Information from './assets/documents/Information'
+import Counter from './documents/Counter'
+import EventHandler from './documents/EventHandler'
+import Information from './documents/Information'
+import Team from './documents/Team'
 
 function App() {
 
   return (
     <>
-    <Information></Information>
-    <Team></Team>
-    <Counter></Counter>
+      <Counter></Counter>
+      <Team></Team>
+      <Information></Information>
       <EventHandler></EventHandler>
 
 
